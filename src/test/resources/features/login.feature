@@ -1,6 +1,6 @@
-Feature : User Login
+Feature: User login
 
 Scenario: Successful login with valid credentials
-    Given user is on the login page
-    When user submit valid credentials
-    Then user should be redirected to the dashboard
+    Given User is on the login page
+    When User submit valid credentials
+    Then User should be redirected to the dashboard
